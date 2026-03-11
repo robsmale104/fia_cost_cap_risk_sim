@@ -1,0 +1,30 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ===== Virtual Environments =====
+.venv/
+venv/
+env/
+
+# ===== Poetry =====
+poetry.lock
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Data =====
+data/
+*.csv
+*.parquet
+*.feather
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+.DS_Store
