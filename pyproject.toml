@@ -1,0 +1,21 @@
+[project]
+name = "fia-cost-cap-risk-sim"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rob Smale",email = "robsmale8@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+package-mode = false
+dependencies = [
+    "pandas (>=3.0.1,<4.0.0)",
+    "numpy (>=2.4.3,<3.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
