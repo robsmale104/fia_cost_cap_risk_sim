@@ -9,10 +9,12 @@ readme = "README.md"
 requires-python = ">=3.12"
 package-mode = false
 dependencies = [
-    "pandas (>=3.0.1,<4.0.0)",
+    "pandas (>=2.2.2,<3.0.0)",
     "numpy (>=2.4.3,<3.0.0)",
     "pyyaml (>=6.0.3,<7.0.0)",
-    "jupyter (>=1.1.1,<2.0.0)"
+    "jupyter (>=1.1.1,<2.0.0)",
+    "plotly (>=6.6.0,<7.0.0)",
+    "streamlit (>=1.55.0,<2.0.0)"
 ]
 
 
