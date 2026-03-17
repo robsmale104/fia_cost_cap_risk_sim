@@ -160,12 +160,11 @@ headroom = active_cap - total_baseline
 # ─── Header ───────────────────────────────────────────────────────────────────
 
 st.markdown("# 🏎️ FIA Cost Cap Risk Simulator")
-st.markdown(
-    f"Monte Carlo analysis {n_sims:,} simulations"
-    f"Scenario:{cap_choice}"
-    f"Correlations: {'ON — Cholesky' if apply_corr else 'OFF — Independent'}"
-    f"Baseline headroom: /${headroom:.0f}"
-)
+st.markdown(f"Monte Carlo analysis {n_sims:,} simulations")
+st.markdown(f"Scenario:{cap_choice}")
+st.markdown(f"Correlations: {'ON — Cholesky' if apply_corr else 'OFF — Independent'}")
+st.markdown(f"Baseline headroom: /${headroom:.0f}")
+
 st.divider()
 
 # ─── KPI Row ─────────────────────────────────────────────────────────────────
@@ -406,7 +405,7 @@ with tab4:
     st.markdown(
         "Conservative, Baseline, and Aggressive spend scenarios compared against "
         "the active cap. The 2026 scenario uses the 2026 cost distributions — "
-        "wider bounds reflecting low TRL on new regulations."
+        "wider bounds reflecting lower TRLs due to new regulations."
     )
 
     scenarios = {
@@ -548,6 +547,7 @@ with tab5:
             ]
         }
         st.dataframe(pd.DataFrame(breach_data), use_container_width=True, hide_index=True)
+        st.markdown("")
         st.markdown("")
         st.markdown("#### Breach Thresholds")
         st.markdown("""
