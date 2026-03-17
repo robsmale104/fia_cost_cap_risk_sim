@@ -163,7 +163,7 @@ st.markdown("# 🏎️ FIA Cost Cap Risk Simulator")
 st.markdown(f"Monte Carlo analysis {n_sims:,} simulations")
 st.markdown(f"Scenario:{cap_choice}")
 st.markdown(f"Correlations: {'ON — Cholesky' if apply_corr else 'OFF — Independent'}")
-st.markdown(f"Baseline headroom: /${headroom:.0f}")
+st.markdown(f"Baseline headroom: ${headroom:.0f}M")
 
 st.divider()
 
