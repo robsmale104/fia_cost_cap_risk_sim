@@ -161,10 +161,10 @@ headroom = active_cap - total_baseline
 
 st.markdown("# 🏎️ FIA Cost Cap Risk Simulator")
 st.markdown(
-    f"Monte Carlo analysis · **{n_sims:,} simulations** · "
-    f"Scenario: **{cap_choice}** · "
-    f"Correlations: **{'ON — Cholesky' if apply_corr else 'OFF — Independent'}** · "
-    f"Baseline headroom: **${headroom:.0f}M**"
+    f"Monte Carlo analysis {n_sims:,} simulations"
+    f"Scenario:{cap_choice}"
+    f"Correlations: {'ON — Cholesky' if apply_corr else 'OFF — Independent'}"
+    f"Baseline headroom: /${headroom:.0f}"
 )
 st.divider()
 
