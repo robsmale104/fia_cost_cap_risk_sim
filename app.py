@@ -76,8 +76,8 @@ cap_choice = st.sidebar.radio(
     options=["2025 Adjusted ($165M)", "Baseline ($135M)", "2026 New Regs ($215M)"],
     index=0,
     help=(
-        "2025 adjusted cap reflects 24-race calendar + inflation indexation on $135M baseline. "
-        "2026 uses updated cost category distributions reflecting new technical regulations — "
+        "2025 adjusted cap reflects 24 race calendar + inflation indexation on $135M baseline."
+        "2026 uses updated cost category distributions reflecting new technical regulations"
         "wider uncertainty bounds due to low TRL across all categories."
     )
 )
@@ -396,7 +396,7 @@ with tab3:
         "probability than the independent model — particularly at the tail (P90, P95). "
         "This is because correlated categories can all overspend simultaneously, "
         "driven by common cost pressures such as inflation, supply chain disruption, "
-        "or a major mid-season upgrade programme."
+        "or a major mid season upgrade programme."
     )
 
 # ── Tab 4: Scenarios ─────────────────────────────────────────────────────────
@@ -505,9 +505,9 @@ with tab5:
         st.markdown("#### Cap Structure")
         cap_data = {
             "Regulation": [
-                "Team Cap — Baseline",
-                "Team Cap — 2025 Adjusted",
-                "Team Cap — 2026 Baseline",
+                "Team Cap: Baseline",
+                "Team Cap: 2025 Adjusted",
+                "Team Cap: 2026 Baseline",
                 "PU Manufacturer Cap (2023–2025)",
                 "PU Manufacturer Cap (2026+)"
             ],
@@ -516,7 +516,7 @@ with tab5:
                 "Article 4 baseline, 2021–2025",
                 "24-race calendar + inflation indexation",
                 "New technical regulations",
-                "Independent cap — applies to PU manufacturers only",
+                "Independent cap applies to PU manufacturers only",
                 "New PU regulations from 2026"
             ]
         }
@@ -526,7 +526,7 @@ with tab5:
         st.markdown("""
         The $135M baseline **excludes**:
         - Driver salaries (top 3 earners)
-        - Three highest-paid non-driver staff
+        - Three highest paid non driver staff
         - Power unit development costs (covered by PU cap)
         - Marketing and promotional expenditure
         - HQ building and infrastructure costs
@@ -540,7 +540,7 @@ with tab5:
             "Type": ["Material Breach", "Procedural (ABA)", "Procedural (ABA)", "Minor Procedural"],
             "Penalty": ["10 pts + $7M fine", "$600k fine", "$400k fine", "No financial penalty"],
             "Detail": [
-                "~$7M over cap — set precedent for points deduction",
+                "~$7M over cap set precedent for points deduction",
                 "Incorrect dyno maintenance & inventory reporting",
                 "Significant documentation deficiencies",
                 "Cooperative response, unforeseen circumstances"

@@ -13,9 +13,9 @@
 
 ## Overview
 
-Since the introduction of the FIA cost cap in 2021, budget management has become one of the most strategically critical disciplines in Formula One. Teams that breach the cap face sporting and financial penalties — a minor breach (<5% over) triggers a reprimand and fine; a material breach (>5%) can result in constructor championship point deductions.
+Since the introduction of the FIA cost cap in 2021, budget management has become one of the most strategically critical disciplines in Formula One. Teams that breach the cap face sporting and financial penalties, a minor breach (<5% over) triggers a reprimand and fine; a material breach (>5%) can result in constructor championship point deductions.
 
-This project applies Monte Carlo simulation to model the probabilistic risk of a team breaching the cost cap across a full season, given uncertainty in each cost category. It is built to demonstrate core cost engineering and risk analysis skills relevant to high-performance engineering environments.
+This project applies Monte Carlo simulation to model the probabilistic risk of a team breaching the cost cap across a full season, given uncertainty in each cost category. It is built to demonstrate core cost engineering and risk analysis skills relevant to high performance engineering environments.
 
 ---
 
@@ -86,7 +86,7 @@ Despite the $80M cap increase, projected development costs consume most of the h
 
 The key analytical advancement in Phase 2 is introducing a Cholesky decomposition correlation matrix between cost categories.
 
-Without correlations, each category is sampled independently — understating the probability of everything going wrong simultaneously. In reality, shared drivers (staff cost inflation, supply chain disruption, major upgrade packages) cause categories to move together.
+Without correlations, each category is sampled independently, understating the probability of everything going wrong simultaneously. In reality, shared drivers (staff cost inflation, supply chain disruption, major upgrade packages) cause categories to move together.
 
 ### The finding
 
@@ -128,9 +128,9 @@ f1-cost-cap-simulator/
 
 ## Planned Extensions
 
-- [ ] Sobol variance-based sensitivity indices
+- [ ] Sobol variance based sensitivity indices
 - [ ] Competitor spend modelling from public FIA submissions
-- [ ] FIA penalty scenario analysis — championship points impact
+- [ ] FIA penalty scenario analysis championship points impact
 - [ ] ML layer — gradient boosted model for optimal budget allocation
 - [ ] FastF1 data calibration against real FIA submission data
 
@@ -151,7 +151,7 @@ f1-cost-cap-simulator/
 
 ## Companion Project
 
-Sits alongside the [F1 Season Resource Allocation Wargame](https://github.com/[username]/f1-wargame-simulator) — campaign-level simulation of development token allocation with adversarial competitor modelling. Together they cover the two core F1 analytical problems: staying under the cap and allocating resources optimally within it.
+Sits alongside the [F1 Season Resource Allocation Wargame](https://github.com/[username]/f1-wargame-simulator) campaign-level simulation of development token allocation with adversarial competitor modelling. Together they cover the two core F1 analytical problems: staying under the cap and allocating resources optimally within it.
 
 ---
 

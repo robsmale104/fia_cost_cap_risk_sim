@@ -23,20 +23,20 @@ Standard in programme risk analysis (MoD CADMID, NASA NPR 7120.5)
 
 Sensitivity Analysis
 Pearson correlation coefficient r(category_i, total_spend) across all simulations.
-This is a simplified form of importance measure. Full variance-based sensitivity (Sobol indices)
-is planned as a Phase 2 extension — this would decompose total variance by first-order and
+This is a simplified form of importance measure. Full variance based sensitivity (Sobol indices)
+is planned as a Phase 2 extension, this would decompose total variance by first-order and
 interaction effects across categories.
 FIA Regulation Notes
 
 Cost cap applies to "Relevant Costs" as defined in Article 4.1
 Excluded costs include: driver salaries (top 3), PU development, marketing, HQ building costs
-Minor breach: ≤5% over cap — financial penalty + reprimand
-Material breach: >5% over cap — can include points deduction (precedent: Red Bull 2021)
+Minor breach: ≤5% over cap, financial penalty + reprimand
+Material breach: >5% over cap, can include points deduction (precedent: Red Bull 2021)
 Adjustments available for constructors entering >2 cars, and for inflation indexing
 
 Planned Phase 2 Extensions
 
-Correlation matrix — model inter-category correlations using Cholesky decomposition
-Competitor modelling — estimate grid-wide spend distribution from public disclosures
-FIA penalty model — translate breach probability into expected championship points impact
-ML integration — gradient boosted model for budget allocation optimisation
+Correlation matrix: model inter-category correlations using Cholesky decomposition
+Competitor modelling: estimate grid-wide spend distribution from public disclosures
+FIA penalty model: translate breach probability into expected championship points impact
+ML integration: gradient boosted model for budget allocation optimisation
