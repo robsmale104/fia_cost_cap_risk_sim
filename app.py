@@ -204,8 +204,8 @@ col5.metric(
 if reg_year == "2026":
     st.warning(
         f"**2026 Regulations:** Total baseline spend of \${total_baseline:.0f}M leaves only "
-        f"\${headroom:.0f}M headroom against the \${active_cap:.0f}M cap — despite the $80M cap increase. "
-        f"Wide uncertainty bounds from lower TRL in 2026, drives breach probability to \{breach_pct:.1f}%, "
+        f"\${headroom:.0f}M headroom against the \${active_cap:.0f}M cap despite the \$80M cap increase. "
+        f"Wide uncertainty bounds from lower TRL in 2026, drives breach probability to {breach_pct:.1f}%, "
         f"higher than the 2025 scenario. The \$80M cap increase is largely consumed by new reg development costs."
     )
 
